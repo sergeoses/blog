@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  .container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+  }
+  .post-form {
+    margin-bottom: 20px;
+  }
+  .post {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  .post img {
+    max-width: 100%;
+    height: auto;
+  }
+  .post audio {
+    width: 100%;
+  }

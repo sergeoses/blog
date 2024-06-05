@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Musical Room</title>
+     <link rel="stylesheet" href=style.css>
+</head>
+<body>
+    <header>
+  <h1>Musical Room</h1>
+</header>
+<nav>
+  <div class="menu-icon">
+  <span>☰</span>
+</div>
+     <ul class="menu">
+    <li><a href="index.html">Home</a></li>
+     <li><a href="posts.html">Musical Room</a></li>
+    <li><a href="about.html">About project</a></li>
+  </ul>
+</nav>
+
+<section class="post-creation">
+  <form id="post-form">
+    <textarea id="post-content" placeholder="Write something here..." required></textarea>
+    <input type="file" id="audio-upload" accept="audio/*">
+    <button type="submit">Publish</button>
+  </form>
+</section>
+
+<section id="posts-display"></section>
+
+<footer>
+  <p>© 2024 Musalista. All rights reserved. Author project — <a href="https://www.facebook.com/sarnavskyii.serhii">Serhii Sarnavskyi</a></p>
+</footer>
+
+ <script src="script.js"></script>
+<script src="post.js"></script>
+</body>
+</html>
